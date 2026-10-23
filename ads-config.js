@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ==============================================================================
  * FitForge - HilltopAds Integration & Ad Zone Configuration Script
  * ==============================================================================
@@ -38,7 +38,7 @@
       fallbackDirectLink: 'https://fitforge-hub.trackdirect.link/fitness-ipp-offer',
       displayDelayMs: 2500,
       notification: {
-        title: '🔥 New Shred Routine Unlocked!',
+        title: 'ðŸ”¥ New Shred Routine Unlocked!',
         message: 'Tap to view the 12-Week HIIT & Hypertrophy Blueprint (100% Free)',
         icon: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=100&h=100&fit=crop&crop=faces',
         badge: 'SPONSORED TIP'
@@ -206,7 +206,7 @@
           </div>
           <div class="hta-ipp-actions">
             <a href="${config.fallbackDirectLink}" target="_blank" rel="noopener noreferrer" class="hta-ipp-cta-btn">
-              ⚡ Claim Access Now
+              âš¡ Claim Access Now
             </a>
           </div>
           <span class="hta-ad-label-pill">Ad via HilltopAds Zone 2</span>
@@ -262,7 +262,7 @@
         // High-engagement visual banner fallback slot
         topSlot.innerHTML = `
           <div class="hta-banner-wrapper banner-728x90">
-            <span class="hta-ad-tagline">SPONSORED ADVERTISEMENT • HILLTOPADS ZONE 3 (728x90)</span>
+            <span class="hta-ad-tagline">SPONSORED ADVERTISEMENT â€¢ HILLTOPADS ZONE 3 (728x90)</span>
             <a href="${config.top728x90.defaultRedirect}" target="_blank" rel="noopener noreferrer" class="hta-banner-link">
               <div class="banner-inner-content">
                 <div class="banner-badge">SPECIAL OFFER</div>
@@ -289,7 +289,7 @@
       } else {
         sidebarSlot.innerHTML = `
           <div class="hta-banner-wrapper banner-300x250">
-            <span class="hta-ad-tagline">SPONSORED • HILLTOPADS ZONE 3 (300x250)</span>
+            <span class="hta-ad-tagline">SPONSORED â€¢ HILLTOPADS ZONE 3 (300x250)</span>
             <a href="${config.sidebar300x250.defaultRedirect}" target="_blank" rel="noopener noreferrer" class="hta-banner-link">
               <div class="banner-rect-content">
                 <div class="rect-badge">PRE-WORKOUT EXPLOSION</div>
@@ -332,7 +332,7 @@
           <div class="hta-slider-header">
             <span class="hta-slider-badge">Featured Partner Video</span>
             <div class="hta-slider-controls">
-              <button id="slider-mute-btn" title="Toggle Sound" aria-label="Mute / Unmute">🔊</button>
+              <button id="slider-mute-btn" title="Toggle Sound" aria-label="Mute / Unmute">ðŸ”Š</button>
               <button id="slider-close-btn" title="Close Video Ad" aria-label="Close ad">&times;</button>
             </div>
           </div>
@@ -369,7 +369,7 @@
       if (muteBtn && videoEl) {
         muteBtn.addEventListener('click', () => {
           videoEl.muted = !videoEl.muted;
-          muteBtn.textContent = videoEl.muted ? '🔇' : '🔊';
+          muteBtn.textContent = videoEl.muted ? 'ðŸ”‡' : 'ðŸ”Š';
         });
       }
     }, config.slideInDelayMs);
@@ -453,7 +453,7 @@
       adOverlay.innerHTML = `
         <div class="vast-ad-frame">
           <div class="vast-ad-header">
-            <span class="vast-badge">Ad • Sponsor Message (HilltopAds VAST Zone 6)</span>
+            <span class="vast-badge">Ad â€¢ Sponsor Message (HilltopAds VAST Zone 6)</span>
             <div class="vast-skip-wrapper" id="vast-skip-wrapper">
               <span id="vast-skip-counter">Skip in ${config.skipAfterSeconds}s</span>
               <button id="vast-skip-btn" class="vast-skip-btn hidden">Skip Ad &raquo;</button>
@@ -572,3 +572,4 @@
     window.FitForgeAds.reloadAll();
   }
 })();
+
