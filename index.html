@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitForge | Workouts, Precision Nutrition & Body Transformation</title>
+  <meta name="description" content="FitForge is the premier athletic training hub: science-backed split routines, Mifflin-St Jeor macro calculator, high-octane HIIT workouts, and daily motivation.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- ============================================================================
+       Site Header
+       ============================================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo" aria-label="FitForge Home">
+        <div class="brand-icon-box">⚡</div>
+        <div class="brand-text">
+          <span class="brand-title">FIT<span>FORGE</span></span>
+          <span class="brand-tagline">Forge Your Ultimate Physique</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#planner" class="nav-link">Workout Planner</a></li>
+          <li><a href="#calculator" class="nav-link">Macro Calculator</a></li>
+          <li><a href="#motivation" class="nav-link">Daily Motivation</a></li>
+          <li><a href="#hiit-player" class="nav-link">HIIT Player</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Zone 5 Direct Link CTA -->
+        <button id="btn-download-plan" class="btn btn-primary btn-pulse btn-sheen" data-smartlink="true" data-campaign="header_nav_plan">
+          ⚡ Free 12-Wk Plan
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================================
+       Zone 3: Top Billboard Banner Ad Placement (728x90)
+       ============================================================================ -->
+  <aside class="container ad-slot-container" aria-label="Sponsored Content">
+    <span class="ad-label">Advertisement</span>
+    <div id="ad-slot-top-banner">
+      <!-- HilltopAds Zone 3 Script / MultiTag Placeholder (Injected via ads-config.js) -->
+      <div class="hta-banner-wrapper banner-728x90">
+        <span class="hta-ad-tagline">SPONSORED ADVERTISEMENT • HILLTOPADS ZONE 3 (728x90)</span>
+        <a href="https://fitforge-hub.trackdirect.link/banner-top-gear" target="_blank" rel="noopener noreferrer" class="hta-banner-link">
+          <div class="banner-inner-content">
+            <div class="banner-badge">SPECIAL OFFER</div>
+            <div class="banner-headline">
+              <strong>TITAN ISO-WHEY PRO</strong>: Accelerate Recovery & Lean Mass Gains
+            </div>
+            <button class="banner-btn">Shop 35% Off &rarr;</button>
+          </div>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============================================================================
+       Hero Section
+       ============================================================================ -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="hero-pill">
+            <span>🔥</span> Elite Body Transformation Protocol
+          </div>
+          <h1 class="hero-title">
+            FORGE YOUR <span class="text-gradient">ULTIMATE PHYSIQUE</span>
+          </h1>
+          <p class="hero-desc">
+            Stop guessing your sets and macros. Access science-backed split routines, precise Mifflin-St Jeor nutritional calculations, and relentless HIIT workout conditioning.
+          </p>
+
+          <div class="hero-cta-group">
+            <!-- Zone 5 SmartLink Trigger 1 -->
+            <button id="btn-hero-workout" class="btn btn-primary btn-pulse btn-sheen" data-smartlink="true" data-campaign="hero_primary_workout_plan">
+              ⚡ Download Free 12-Week Workout Plan (PDF)
+            </button>
+            <!-- Zone 5 SmartLink Trigger 2 -->
+            <button id="btn-meal-guide" class="btn btn-secondary" data-smartlink="true" data-campaign="hero_secondary_meal_guide">
+              🥗 Get Custom Macro Meal Guide
+            </button>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-number">250<span>+</span></span>
+              <span class="stat-label">Specialized Routines</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100<span>%</span></span>
+              <span class="stat-label">Free Macro Engine</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">54<span>K</span></span>
+              <span class="stat-label">Active Athletes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card-featured">
+          <span class="hero-card-tag">WEEKLY SPOTLIGHT ROUTINE</span>
+          <h3 class="hero-card-title">IRON SHRED 4-DAY SPLIT</h3>
+          <p>Engineered for maximum metabolic burn while preserving lean muscle mass during aggressive cutting phases.</p>
+          
+          <div class="hero-split-preview">
+            <div class="split-pill">
+              <span>Day 1: Heavy Push & Delts</span>
+              <span>85% 1RM • 45m</span>
+            </div>
+            <div class="split-pill">
+              <span>Day 2: Pull & Core Hypertrophy</span>
+              <span>75% 1RM • 50m</span>
+            </div>
+            <div class="split-pill">
+              <span>Day 3: Quads, Glutes & Calves</span>
+              <span>High Volume • 60m</span>
+            </div>
+            <div class="split-pill">
+              <span>Day 4: Athletic Conditioning & HIIT</span>
+              <span>Tabata • 25m</span>
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-sheen" style="width: 100%; margin-top: 0.5rem;" data-smartlink="true" data-campaign="hero_spotlight_cta">
+            Unlock Full Exercise Log &raquo;
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================================
+       Main Content Grid: Core Features & Sidebar
+       ============================================================================ -->
+  <main class="container main-layout-grid">
+    <!-- Main Left Column -->
+    <div class="content-column">
+
+      <!-- ========================================================================
+           Section 1: Workout Routine Planner
+           ======================================================================== -->
+      <section id="planner" class="routine-planner-card">
+        <div class="section-header">
+          <span class="section-badge">TRAINING BLUEPRINTS</span>
+          <h2 class="section-heading">WORKOUT ROUTINE PLANNER</h2>
+          <p class="section-subheading">Select your training goal to dynamically generate your targeted weekly program.</p>
+        </div>
+
+        <div class="planner-controls">
+          <div class="filter-group-label">Select Your Primary Focus:</div>
+          <div class="filter-pills" id="goal-filter-pills">
+            <button class="filter-btn active" data-goal="shred">🔥 Fat Loss / Shred</button>
+            <button class="filter-btn" data-goal="hypertrophy">💪 Muscle Hypertrophy</button>
+            <button class="filter-btn" data-goal="strength">⚡ Pure Strength (5x5)</button>
+            <button class="filter-btn" data-goal="hiit">⏱️ HIIT & Conditioning</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Routine Grid Container -->
+        <div class="routine-display-grid" id="routine-grid-container">
+          <!-- Populated dynamically by JavaScript -->
+        </div>
+
+        <div class="routine-footer-actions">
+          <div>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">
+              ✅ All routines include progressive overload guidelines and active recovery protocols.
+            </span>
+          </div>
+          <!-- Zone 5 SmartLink Trigger -->
+          <button class="btn btn-primary smartlink-trigger" data-smartlink="true" data-campaign="routine_planner_export_pdf">
+            📥 Save & Export Full Plan (PDF)
+          </button>
+        </div>
+      </section>
+
+      <!-- ========================================================================
+           Section 2: Calorie & Macro Calculator
+           ======================================================================== -->
+      <section id="calculator" class="calculator-card">
+        <div class="section-header">
+          <span class="section-badge">NUTRITION SCIENCE</span>
+          <h2 class="section-heading">CALORIE & MACRO CALCULATOR</h2>
+          <p class="section-subheading">Mifflin-St Jeor equation customized to your body composition and physical demands.</p>
+        </div>
+
+        <div class="calc-grid">
+          <!-- Inputs Column -->
+          <div class="calc-inputs-col">
+            <div class="unit-toggle-row">
+              <button type="button" class="unit-btn active" id="unit-metric-btn">Metric (kg / cm)</button>
+              <button type="button" class="unit-btn" id="unit-imperial-btn">Imperial (lbs / in)</button>
+            </div>
+
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label for="calc-gender">Biological Sex</label>
+                <select id="calc-gender" class="form-select">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="calc-age">Age (Years)</label>
+                <input type="number" id="calc-age" class="form-input" value="28" min="14" max="90">
+              </div>
+            </div>
+
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label for="calc-weight" id="label-weight">Weight (kg)</label>
+                <input type="number" id="calc-weight" class="form-input" value="78" min="30" max="300">
+              </div>
+
+              <div class="form-group">
+                <label for="calc-height" id="label-height">Height (cm)</label>
+                <input type="number" id="calc-height" class="form-input" value="180" min="100" max="250">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="calc-activity">Daily Activity Level</label>
+              <select id="calc-activity" class="form-select">
+                <option value="1.2">Sedentary (Desk Job, Little to No Exercise)</option>
+                <option value="1.375">Light Activity (1-3 Days Workout/Wk)</option>
+                <option value="1.55" selected>Moderate Activity (3-5 Days Hard Training/Wk)</option>
+                <option value="1.725">Heavy Activity (6-7 Days High Intensity/Wk)</option>
+                <option value="1.9">Athlete / Two-a-Days (Elite Physical Demands)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="calc-goal">Transformation Goal</label>
+              <select id="calc-goal" class="form-select">
+                <option value="cut-aggressive">Aggressive Fat Cut (-25% Deficit)</option>
+                <option value="cut-moderate" selected>Moderate Fat Loss (-15% Deficit)</option>
+                <option value="maintenance">Lean Maintenance (Recomposition)</option>
+                <option value="bulk-lean">Lean Bulk (+10% Surplus)</option>
+                <option value="bulk-heavy">Mass Monster Bulk (+20% Surplus)</option>
+              </select>
+            </div>
+
+            <button type="button" id="btn-run-calc" class="btn btn-primary btn-sheen">
+              ⚡ Compute Precision Macros
+            </button>
+          </div>
+
+          <!-- Results Column -->
+          <div class="calc-results-col">
+            <div class="results-header">
+              <div class="results-title">YOUR DAILY TARGET INTAKE</div>
+              <div class="calorie-target-display">
+                <span class="target-calories-value" id="res-target-calories">2,420</span>
+                <span class="target-calories-unit">kcal / day</span>
+              </div>
+              <div class="tdee-bmr-breakdown">
+                <div>BMR: <strong id="res-bmr">1,780</strong> kcal</div>
+                <div>TDEE: <strong id="res-tdee">2,759</strong> kcal</div>
+              </div>
+            </div>
+
+            <div class="macro-distribution-wrap">
+              <!-- Protein -->
+              <div class="macro-bar-row">
+                <div class="macro-bar-label">
+                  <span class="macro-name">🥩 Protein (40%)</span>
+                  <span class="macro-amount" id="res-protein">242g (968 kcal)</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-protein" id="bar-protein" style="width: 40%;"></div>
+                </div>
+              </div>
+
+              <!-- Carbs -->
+              <div class="macro-bar-row">
+                <div class="macro-bar-label">
+                  <span class="macro-name">🍚 Carbohydrates (35%)</span>
+                  <span class="macro-amount" id="res-carbs">212g (847 kcal)</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-carbs" id="bar-carbs" style="width: 35%;"></div>
+                </div>
+              </div>
+
+              <!-- Fats -->
+              <div class="macro-bar-row">
+                <div class="macro-bar-label">
+                  <span class="macro-name">🥑 Healthy Fats (25%)</span>
+                  <span class="macro-amount" id="res-fats">67g (605 kcal)</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill fill-fats" id="bar-fats" style="width: 25%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div style="background: rgba(255, 69, 0, 0.1); padding: 0.85rem; border-radius: 6px; border-left: 3px solid var(--accent-orange); margin-bottom: 1rem;">
+              <div style="font-size: 0.78rem; color: #fff;">
+                💧 <strong>Hydration Target:</strong> <span id="res-water">3.8 Liters</span> of water per day.
+              </div>
+            </div>
+
+            <!-- Zone 5 Direct Link CTA -->
+            <button class="btn btn-secondary smartlink-trigger" data-smartlink="true" data-campaign="calculator_download_grocery_list" style="width: 100%;">
+              🛒 Get Custom Meal Prep Grocery List &raquo;
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================
+           Section 3: Daily Motivation & Rest Timer
+           ======================================================================== -->
+      <section id="motivation" class="motivation-card">
+        <div class="section-header">
+          <span class="section-badge">IRON MINDSET</span>
+          <h2 class="section-heading">DAILY DISCIPLINE PROTOCOL</h2>
+          <p class="section-subheading">Motivation gets you started; discipline finishes the transformation.</p>
+        </div>
+
+        <div class="quote-box">
+          <div class="quote-text" id="quote-display-text">
+            "The resistance that you fight physically in the gym and the resistance that you fight in life can only build a strong character."
+          </div>
+          <div class="quote-author" id="quote-display-author">— Arnold Schwarzenegger</div>
+          <button type="button" id="btn-next-quote" class="btn btn-secondary" style="margin-top: 1rem; padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+            🎲 Generate New Fuel
+          </button>
+        </div>
+
+        <!-- Daily Habits Checklist -->
+        <h4 style="font-size: 1.05rem; color: #fff; margin-bottom: 0.5rem;">TODAY'S ATHLETE CHECKLIST</h4>
+        <div class="habit-checklist-grid">
+          <label class="habit-item">
+            <input type="checkbox" class="habit-checkbox" checked>
+            <span class="habit-label">Drank 3.5L Water</span>
+          </label>
+          <label class="habit-item">
+            <input type="checkbox" class="habit-checkbox" checked>
+            <span class="habit-label">Hit Target Protein Intake</span>
+          </label>
+          <label class="habit-item">
+            <input type="checkbox" class="habit-checkbox">
+            <span class="habit-label">Completed Scheduled Workout</span>
+          </label>
+          <label class="habit-item">
+            <input type="checkbox" class="habit-checkbox">
+            <span class="habit-label">10-Min Mobility / Foam Roll</span>
+          </label>
+          <label class="habit-item">
+            <input type="checkbox" class="habit-checkbox">
+            <span class="habit-label">7.5+ Hours Recovery Sleep</span>
+          </label>
+        </div>
+
+        <!-- Quick Rest Interval Timer -->
+        <div style="margin-top: 2rem; background: #111720; padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <div style="font-size: 0.85rem; font-weight: 700; color: #fff;">GYM SET REST TIMER</div>
+            <div style="font-size: 0.75rem; color: var(--text-muted);">Stay on rhythm between sets for optimal hypertrophy.</div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div id="rest-timer-display" style="font-family: var(--font-display); font-size: 1.8rem; color: var(--accent-orange); min-width: 65px;">00:60</div>
+            <button id="btn-timer-toggle" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.8rem;">Start Rest</button>
+            <button id="btn-timer-reset" class="btn btn-secondary" style="padding: 0.4rem 0.6rem; font-size: 0.8rem;">↺ 60s</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================
+           Section 4: Featured HIIT Workout Video Player (Zone 6 VAST Integrated)
+           ======================================================================== -->
+      <section id="hiit-player" class="video-player-section">
+        <div class="section-header">
+          <span class="section-badge">INTERACTIVE SESSION</span>
+          <h2 class="section-heading">FEATURED HIIT WORKOUT: 20-MIN TABATA SHRED</h2>
+          <p class="section-subheading">High-intensity functional conditioning designed to ignite post-workout oxygen consumption (EPOC).</p>
+        </div>
+
+        <!-- Video Player Wrapper with Zone 6 VAST Integration -->
+        <div class="video-container" id="video-player-container">
+          <!-- Zone 6 VAST Pre-Roll Overlay (Managed by ads-config.js) -->
+          <div id="vast-ad-overlay" class="vast-ad-overlay hidden">
+            <!-- VAST Ad Video, countdown timer and skip button rendered here -->
+          </div>
+
+          <!-- Main HTML5 Workout Video -->
+          <video id="hiit-video-player" class="main-hiit-video" controls playsinline poster="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=1200&auto=format&fit=crop&q=80">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-athlete-working-out-with-a-battle-rope-42860-large.mp4" type="video/mp4">
+            Your browser does not support HTML5 video playback.
+          </video>
+
+          <!-- Poster Play Overlay -->
+          <div class="video-custom-overlay" id="video-poster-click">
+            <div class="play-circle-btn" id="btn-play-hiit-workout">▶</div>
+            <div class="video-overlay-text">
+              <h3>START 20-MIN TABATA SHRED</h3>
+              <p>Work: 45s | Rest: 15s | 8 Rounds • Click to Play</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; flex-wrap: wrap; gap: 0.75rem;">
+          <div style="font-size: 0.85rem; color: var(--text-muted);">
+            Includes: Kettlebell Swings, Burpees, Battle Ropes, Plyometric Lunges, Hollow Holds.
+          </div>
+          <!-- Zone 5 Direct Link CTA -->
+          <button class="btn btn-secondary smartlink-trigger" data-smartlink="true" data-campaign="hiit_follow_along_pdf">
+            📄 Get HIIT Interval Schedule &raquo;
+          </button>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ==========================================================================
+         Sidebar Column (Zone 3 Banner 300x250, Supplement Offers, Newsletter)
+         ========================================================================== -->
+    <aside class="sidebar-column" aria-label="Sidebar Resources">
+
+      <!-- Zone 3: MultiTag Banner 300x250 Placement -->
+      <div class="ad-slot-container" style="margin: 0;">
+        <span class="ad-label">Sponsored Resource</span>
+        <div id="ad-slot-sidebar-banner">
+          <!-- HilltopAds Zone 3 300x250 Script Placeholder (Injected via ads-config.js) -->
+          <div class="hta-banner-wrapper banner-300x250">
+            <span class="hta-ad-tagline">SPONSORED • HILLTOPADS ZONE 3 (300x250)</span>
+            <a href="https://fitforge-hub.trackdirect.link/banner-supplements" target="_blank" rel="noopener noreferrer" class="hta-banner-link">
+              <div class="banner-rect-content">
+                <div class="rect-badge">PRE-WORKOUT EXPLOSION</div>
+                <h4 class="rect-title">IGNITE YOUR PUMP & INTENSITY</h4>
+                <p class="rect-desc">Clinical doses of L-Citrulline, Beta-Alanine & Natural Caffeine for laser focus.</p>
+                <div class="rect-cta">GET FREE TRIAL KIT &rarr;</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pro Trainer Tip of the Day -->
+      <div class="sidebar-widget">
+        <h4 class="widget-title">COACH'S DAILY CUE</h4>
+        <div style="font-size: 0.85rem; color: #fff; line-height: 1.5;">
+          <strong>"Mind-Muscle Connection on Incline Press:"</strong>
+          <p style="color: var(--text-muted); margin-top: 0.4rem;">
+            Do not just push the bar away. Think about aggressively squeezing your elbows together across your chest at the top of the contraction for 1 full second.
+          </p>
+        </div>
+        <div style="font-size: 0.75rem; color: var(--accent-orange); font-weight: 700;">
+          — Coach Marcus Vance, CSCS
+        </div>
+      </div>
+
+      <!-- Trending Supplement Stack -->
+      <div class="sidebar-widget">
+        <h4 class="widget-title">EVIDENCE-BASED STACK</h4>
+        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+          <div class="supplement-card">
+            <div class="supp-thumb">💊</div>
+            <div class="supp-info">
+              <h5>Creatine Monohydrate</h5>
+              <p>5g Daily • ATP Regeneration & Power</p>
+            </div>
+          </div>
+          <div class="supplement-card">
+            <div class="supp-thumb">🥛</div>
+            <div class="supp-info">
+              <h5>Hydrolyzed Whey Isolate</h5>
+              <p>30g Post-Workout • Rapid Leucine Spikes</p>
+            </div>
+          </div>
+          <div class="supplement-card">
+            <div class="supp-thumb">⚡</div>
+            <div class="supp-info">
+              <h5>Electrolyte Minerals</h5>
+              <p>Sodium, Potassium, Magnesium for Cramp Prevention</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Zone 5 SmartLink CTA -->
+        <button class="btn btn-primary btn-sheen smartlink-trigger" data-smartlink="true" data-campaign="sidebar_supplement_guide" style="width: 100%;">
+          Claim Free Supplement Sample Pack &rarr;
+        </button>
+      </div>
+
+      <!-- Weekly Newsletter Subscribe -->
+      <div class="newsletter-card">
+        <h4>JOIN 54,000+ ATHLETES</h4>
+        <p>Get our Sunday Forge email: 1 new split workout, 3 meal prep recipes, and 1 scientific biomechanics breakdown.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Welcome to FitForge! Check your inbox for the 12-Week Starter Blueprint.');">
+          <input type="email" placeholder="Enter your best email..." class="form-input" required>
+          <button type="submit" class="btn btn-primary">Join Free Newsletter</button>
+        </form>
+      </div>
+
+    </aside>
+  </main>
+
+  <!-- ============================================================================
+       Zone 4: Video Slider MultiTag Container (Bottom Corner Outstream)
+       ============================================================================ -->
+  <div id="ad-slot-video-slider" class="ad-slot-video-slider" aria-label="Partner Video Offer">
+    <!-- Populated by ads-config.js (HilltopAds Zone 4) -->
+  </div>
+
+  <!-- ============================================================================
+       Footer Section
+       ============================================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#" class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-icon-box">⚡</div>
+            <div class="brand-text">
+              <span class="brand-title">FIT<span>FORGE</span></span>
+              <span class="brand-tagline">Forge Your Ultimate Physique</span>
+            </div>
+          </a>
+          <p style="font-size: 0.85rem; line-height: 1.6;">
+            FitForge provides science-backed workout programming, precise nutritional calculators, and relentless mindset training for high-performing natural athletes worldwide.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Training Protocols</h5>
+          <ul class="footer-links">
+            <li><a href="#planner">Push / Pull / Legs Split</a></li>
+            <li><a href="#planner">Upper / Lower Strength</a></li>
+            <li><a href="#hiit-player">20-Min Tabata HIIT</a></li>
+            <li><a href="#planner">5x5 Progressive Overload</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Nutrition Tools</h5>
+          <ul class="footer-links">
+            <li><a href="#calculator">Mifflin-St Jeor TDEE</a></li>
+            <li><a href="#calculator">BMR Calculator</a></li>
+            <li><a href="#calculator">Target Macro Splits</a></li>
+            <li><a href="#" class="smartlink-trigger" data-smartlink="true" data-campaign="footer_meal_prep">Meal Prep Library</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Direct Access</h5>
+          <p style="font-size: 0.82rem; margin-bottom: 0.75rem;">
+            Download our complete 12-Week Transformation Guide & Nutrition Blueprint directly:
+          </p>
+          <!-- Zone 5 Direct Link CTA -->
+          <button class="btn btn-primary smartlink-trigger" data-smartlink="true" data-campaign="footer_direct_plan_btn" style="width: 100%;">
+            ⚡ Download 12-Wk Plan (PDF)
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 FitForge Hub. All rights reserved. Designed for serious fitness enthusiasts.
+        </div>
+        <div style="font-size: 0.72rem; color: var(--text-dim);">
+          Monetized via HilltopAds (Popunder, IPP, MultiTag Banners, Video Slider, SmartLink, VAST). Consult a physician before beginning any strenuous workout routine.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================================
+       Interactive Application Logic (Routine Planner, Calorie Engine, Motivation)
+       ============================================================================ -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* --------------------------------------------------------------------------
+         1. Workout Routine Planner Data & Rendering
+         -------------------------------------------------------------------------- */
+      const routinesData = {
+        shred: [
+          {
+            day: 'Day 1: Chest & High-Intensity HIIT',
+            tag: 'FAT SHRED',
+            target: 'Pectorals, Anterior Delts & Cardio Conditioning',
+            exercises: [
+              { name: 'Incline Dumbbell Press', sets: '4 sets × 10-12 reps (60s rest)' },
+              { name: 'Cable Chest Flyes (Low to High)', sets: '3 sets × 15 reps (45s rest)' },
+              { name: 'Weighted Push-ups Drop Set', sets: '3 sets × to failure' },
+              { name: 'HIIT Kettlebell Swing Intervals', sets: '6 rounds × 45s work / 15s rest' }
+            ]
+          },
+          {
+            day: 'Day 2: Back & Core Metabolic Burn',
+            tag: 'FAT SHRED',
+            target: 'Lats, Rhomboids & Rotational Core',
+            exercises: [
+              { name: 'Barbell Bent-Over Row', sets: '4 sets × 8-10 reps (75s rest)' },
+              { name: 'Neutral-Grip Lat Pulldown', sets: '3 sets × 12 reps (60s rest)' },
+              { name: 'Single-Arm Dumbbell Row', sets: '3 sets × 12 reps / arm' },
+              { name: 'Hanging Leg Raises + Planks', sets: '4 sets × 15 reps + 45s hold' }
+            ]
+          },
+          {
+            day: 'Day 3: Quads, Hamstrings & Calves',
+            tag: 'FAT SHRED',
+            target: 'Leg Extensors & Posterior Chain',
+            exercises: [
+              { name: 'Front Squats (Barbell or DB)', sets: '4 sets × 10 reps (90s rest)' },
+              { name: 'Romanian Deadlifts (RDL)', sets: '4 sets × 10-12 reps (75s rest)' },
+              { name: 'Walking Dumbbell Lunges', sets: '3 sets × 20 paces total' },
+              { name: 'Standing Calf Raises', sets: '4 sets × 20 reps (30s rest)' }
+            ]
+          }
+        ],
+        hypertrophy: [
+          {
+            day: 'Day 1: Push (Chest, Shoulders, Triceps)',
+            tag: 'HYPERTROPHY',
+            target: 'Upper Push Complex',
+            exercises: [
+              { name: 'Barbell Flat Bench Press', sets: '4 sets × 6-8 reps (2m rest)' },
+              { name: 'Seated Overhead Dumbbell Press', sets: '4 sets × 8-10 reps (90s rest)' },
+              { name: 'Incline Cable Flyes', sets: '3 sets × 12-15 reps (60s rest)' },
+              { name: 'Rope Triceps Pushdowns', sets: '4 sets × 12-15 reps (super-slow negative)' }
+            ]
+          },
+          {
+            day: 'Day 2: Pull (Lats, Traps, Biceps)',
+            tag: 'HYPERTROPHY',
+            target: 'Upper Pull Complex',
+            exercises: [
+              { name: 'Chest-Supported T-Bar Row', sets: '4 sets × 8-10 reps (90s rest)' },
+              { name: 'Wide-Grip Pull-Ups', sets: '4 sets × 8-12 reps (bodyweight/weighted)' },
+              { name: 'Face Pulls with External Rotation', sets: '4 sets × 15-20 reps (delts health)' },
+              { name: 'Incline Dumbbell Bicep Curls', sets: '3 sets × 10-12 reps (full stretch)' }
+            ]
+          },
+          {
+            day: 'Day 3: Legs (Quads, Posterior Chain & Calves)',
+            tag: 'HYPERTROPHY',
+            target: 'Lower Hypertrophy Foundation',
+            exercises: [
+              { name: 'Barbell Back Squats', sets: '4 sets × 8 reps (2.5m rest)' },
+              { name: 'Leg Press (Moderate Stance)', sets: '3 sets × 12-15 reps (drop set on last)' },
+              { name: 'Lying Hamstring Leg Curls', sets: '4 sets × 10-12 reps (constant tension)' },
+              { name: 'Seated Calf Raises', sets: '4 sets × 15-20 reps (2s hold at peak)' }
+            ]
+          }
+        ],
+        strength: [
+          {
+            day: 'Day 1: Heavy Squat & Bench Foundation',
+            tag: 'PURE STRENGTH',
+            target: 'Maximal Neural Drive (85-90% 1RM)',
+            exercises: [
+              { name: 'Competition Barbell Back Squat', sets: '5 sets × 5 reps (3m rest)' },
+              { name: 'Flat Barbell Bench Press', sets: '5 sets × 5 reps (3m rest)' },
+              { name: 'Pendlay Barbell Rows', sets: '4 sets × 6 reps (2m rest)' },
+              { name: 'Weighted Ab Wheel Rollouts', sets: '3 sets × 10 reps' }
+            ]
+          },
+          {
+            day: 'Day 2: Deadlift & Overhead Press Heavy',
+            tag: 'PURE STRENGTH',
+            target: 'Posterior & Overhead Kinetic Chain',
+            exercises: [
+              { name: 'Conventional Barbell Deadlift', sets: '3 sets × 3-5 reps (3-4m rest)' },
+              { name: 'Standing Military Overhead Press', sets: '5 sets × 5 reps (3m rest)' },
+              { name: 'Weighted Pull-Ups', sets: '4 sets × 5 reps (2m rest)' },
+              { name: 'Farmer Walk Carries', sets: '3 sets × 50 meters heavy' }
+            ]
+          }
+        ],
+        hiit: [
+          {
+            day: 'Session 1: Full-Body Tabata Blast',
+            tag: 'HIIT & ENDURANCE',
+            target: 'Cardiovascular Output & VO2 Max',
+            exercises: [
+              { name: 'Burpee Chest-to-Floor Jumps', sets: '8 rounds × 20s max effort / 10s rest' },
+              { name: 'Kettlebell Double-Hand Swings', sets: '8 rounds × 20s max effort / 10s rest' },
+              { name: 'Alternating Jump Lunges', sets: '8 rounds × 20s max effort / 10s rest' },
+              { name: 'Battle Rope Waves + Slams', sets: '8 rounds × 20s max effort / 10s rest' }
+            ]
+          },
+          {
+            day: 'Session 2: Core & Metabolic Sprint Finisher',
+            tag: 'HIIT & ENDURANCE',
+            target: 'Core Stabilization & Lactate Tolerance',
+            exercises: [
+              { name: 'Rower or Assault Bike Sprints', sets: '10 rounds × 30s all-out / 30s slow' },
+              { name: 'Mountain Climbers at Speed', sets: '4 sets × 45s work' },
+              { name: 'Box Jumps with Step Down', sets: '4 sets × 12 explosive reps' },
+              { name: 'Hanging Knees to Elbows', sets: '4 sets × 15 reps' }
+            ]
+          }
+        ]
+      };
+
+      const routineContainer = document.getElementById('routine-grid-container');
+      const goalPills = document.querySelectorAll('#goal-filter-pills .filter-btn');
+
+      function renderRoutines(goalKey) {
+        const list = routinesData[goalKey] || routinesData.shred;
+        if (!routineContainer) return;
+
+        routineContainer.innerHTML = list.map(item => `
+          <div class="routine-card">
+            <div class="routine-header">
+              <h3 class="routine-day">${item.day}</h3>
+              <span class="routine-tag">${item.tag}</span>
+            </div>
+            <div class="routine-muscle-target">${item.target}</div>
+            <ul class="exercise-list">
+              ${item.exercises.map(ex => `
+                <li class="exercise-item">
+                  <span class="exercise-name">${ex.name}</span>
+                  <span class="exercise-sets">${ex.sets}</span>
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+        `).join('');
+      }
+
+      goalPills.forEach(btn => {
+        btn.addEventListener('click', () => {
+          goalPills.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const goal = btn.getAttribute('data-goal');
+          renderRoutines(goal);
+        });
+      });
+
+      // Initial render
+      renderRoutines('shred');
+
+      /* --------------------------------------------------------------------------
+         2. Calorie & Macro Calculator Engine (Mifflin-St Jeor)
+         -------------------------------------------------------------------------- */
+      let isMetric = true;
+      const unitMetricBtn = document.getElementById('unit-metric-btn');
+      const unitImperialBtn = document.getElementById('unit-imperial-btn');
+      const labelWeight = document.getElementById('label-weight');
+      const labelHeight = document.getElementById('label-height');
+      const inputWeight = document.getElementById('calc-weight');
+      const inputHeight = document.getElementById('calc-height');
+
+      unitMetricBtn.addEventListener('click', () => {
+        if (isMetric) return;
+        isMetric = true;
+        unitMetricBtn.classList.add('active');
+        unitImperialBtn.classList.remove('active');
+        labelWeight.textContent = 'Weight (kg)';
+        labelHeight.textContent = 'Height (cm)';
+        // Convert lbs to kg
+        inputWeight.value = Math.round(parseFloat(inputWeight.value) / 2.20462);
+        // Convert in to cm
+        inputHeight.value = Math.round(parseFloat(inputHeight.value) * 2.54);
+        calculateMacros();
+      });
+
+      unitImperialBtn.addEventListener('click', () => {
+        if (!isMetric) return;
+        isMetric = false;
+        unitImperialBtn.classList.add('active');
+        unitMetricBtn.classList.remove('active');
+        labelWeight.textContent = 'Weight (lbs)';
+        labelHeight.textContent = 'Height (inches)';
+        // Convert kg to lbs
+        inputWeight.value = Math.round(parseFloat(inputWeight.value) * 2.20462);
+        // Convert cm to in
+        inputHeight.value = Math.round(parseFloat(inputHeight.value) / 2.54);
+        calculateMacros();
+      });
+
+      function calculateMacros() {
+        const gender = document.getElementById('calc-gender').value;
+        const age = parseFloat(document.getElementById('calc-age').value) || 28;
+        let weight = parseFloat(inputWeight.value) || 78;
+        let height = parseFloat(inputHeight.value) || 180;
+        const activity = parseFloat(document.getElementById('calc-activity').value) || 1.55;
+        const goal = document.getElementById('calc-goal').value;
+
+        // Convert to metric if user is in imperial
+        let weightKg = isMetric ? weight : weight / 2.20462;
+        let heightCm = isMetric ? height : height * 2.54;
+
+        // Mifflin-St Jeor formula for BMR
+        // Male: BMR = 10W + 6.25H - 5A + 5
+        // Female: BMR = 10W + 6.25H - 5A - 161
+        let bmr = (10 * weightKg) + (6.25 * heightCm) - (5 * age);
+        if (gender === 'male') {
+          bmr += 5;
+        } else {
+          bmr -= 161;
+        }
+
+        const tdee = bmr * activity;
+
+        // Goal Multiplier
+        let goalFactor = 1.0;
+        let proteinRatio = 0.35;
+        let carbsRatio = 0.40;
+        let fatsRatio = 0.25;
+
+        if (goal === 'cut-aggressive') {
+          goalFactor = 0.75;
+          proteinRatio = 0.42;
+          carbsRatio = 0.33;
+          fatsRatio = 0.25;
+        } else if (goal === 'cut-moderate') {
+          goalFactor = 0.85;
+          proteinRatio = 0.40;
+          carbsRatio = 0.35;
+          fatsRatio = 0.25;
+        } else if (goal === 'maintenance') {
+          goalFactor = 1.0;
+          proteinRatio = 0.30;
+          carbsRatio = 0.45;
+          fatsRatio = 0.25;
+        } else if (goal === 'bulk-lean') {
+          goalFactor = 1.10;
+          proteinRatio = 0.28;
+          carbsRatio = 0.50;
+          fatsRatio = 0.22;
+        } else if (goal === 'bulk-heavy') {
+          goalFactor = 1.20;
+          proteinRatio = 0.25;
+          carbsRatio = 0.55;
+          fatsRatio = 0.20;
+        }
+
+        const targetCalories = Math.round(tdee * goalFactor);
+        const proteinCalories = targetCalories * proteinRatio;
+        const carbsCalories = targetCalories * carbsRatio;
+        const fatsCalories = targetCalories * fatsRatio;
+
+        const proteinGrams = Math.round(proteinCalories / 4);
+        const carbsGrams = Math.round(carbsCalories / 4);
+        const fatsGrams = Math.round(fatsCalories / 9);
+
+        // Water target: ~35-45 ml per kg of bodyweight
+        const waterLiters = ((weightKg * 45) / 1000).toFixed(1);
+
+        // Update DOM
+        document.getElementById('res-target-calories').textContent = targetCalories.toLocaleString();
+        document.getElementById('res-bmr').textContent = Math.round(bmr).toLocaleString();
+        document.getElementById('res-tdee').textContent = Math.round(tdee).toLocaleString();
+
+        document.getElementById('res-protein').textContent = `${proteinGrams}g (${Math.round(proteinCalories)} kcal)`;
+        document.getElementById('res-carbs').textContent = `${carbsGrams}g (${Math.round(carbsCalories)} kcal)`;
+        document.getElementById('res-fats').textContent = `${fatsGrams}g (${Math.round(fatsCalories)} kcal)`;
+
+        document.getElementById('bar-protein').style.width = `${Math.round(proteinRatio * 100)}%`;
+        document.getElementById('bar-carbs').style.width = `${Math.round(carbsRatio * 100)}%`;
+        document.getElementById('bar-fats').style.width = `${Math.round(fatsRatio * 100)}%`;
+
+        document.getElementById('res-water').textContent = `${waterLiters} Liters`;
+      }
+
+      document.getElementById('btn-run-calc').addEventListener('click', calculateMacros);
+      ['calc-gender', 'calc-age', 'calc-weight', 'calc-height', 'calc-activity', 'calc-goal'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.addEventListener('change', calculateMacros);
+      });
+
+      calculateMacros();
+
+      /* --------------------------------------------------------------------------
+         3. Daily Motivation Quotes Generator
+         -------------------------------------------------------------------------- */
+      const quotes = [
+        { text: "The resistance that you fight physically in the gym and the resistance that you fight in life can only build a strong character.", author: "Arnold Schwarzenegger" },
+        { text: "You don't have to be extreme, just consistent. Greatness is earned daily through the small victories.", author: "Dorian Yates" },
+        { text: "Don't stop when you're tired. Stop when you're done.", author: "David Goggins" },
+        { text: "Discipline equals freedom. Overcome the excuses in your head before they take root.", author: "Jocko Willink" },
+        { text: "Everybody wants to be a bodybuilder, but nobody wants to lift no heavy-ass weights.", author: "Ronnie Coleman" },
+        { text: "Clear your mind of can't. The body achieves what the mind believes.", author: "Lou Ferrigno" },
+        { text: "Success starts with self-discipline. Today's sacrifice is tomorrow's physical armor.", author: "Dwayne Johnson" },
+        { text: "If you want something you've never had, you must be willing to do something you've never done.", author: "Thomas Jefferson" }
+      ];
+
+      let quoteIndex = 0;
+      const quoteTextEl = document.getElementById('quote-display-text');
+      const quoteAuthorEl = document.getElementById('quote-display-author');
+      const btnNextQuote = document.getElementById('btn-next-quote');
+
+      if (btnNextQuote) {
+        btnNextQuote.addEventListener('click', () => {
+          quoteIndex = (quoteIndex + 1) % quotes.length;
+          quoteTextEl.style.opacity = '0';
+          setTimeout(() => {
+            quoteTextEl.textContent = `"${quotes[quoteIndex].text}"`;
+            quoteAuthorEl.textContent = `— ${quotes[quoteIndex].author}`;
+            quoteTextEl.style.opacity = '1';
+          }, 150);
+        });
+      }
+
+      /* --------------------------------------------------------------------------
+         4. Rest Interval Stopwatch Timer
+         -------------------------------------------------------------------------- */
+      const restTimerDisplay = document.getElementById('rest-timer-display');
+      const btnTimerToggle = document.getElementById('btn-timer-toggle');
+      const btnTimerReset = document.getElementById('btn-timer-reset');
+
+      let timerInterval = null;
+      let remainingSeconds = 60;
+      let isTimerRunning = false;
+
+      function updateTimerDisplay() {
+        const m = Math.floor(remainingSeconds / 60).toString().padStart(2, '0');
+        const s = (remainingSeconds % 60).toString().padStart(2, '0');
+        if (restTimerDisplay) restTimerDisplay.textContent = `${m}:${s}`;
+      }
+
+      if (btnTimerToggle) {
+        btnTimerToggle.addEventListener('click', () => {
+          if (isTimerRunning) {
+            clearInterval(timerInterval);
+            isTimerRunning = false;
+            btnTimerToggle.textContent = 'Resume';
+          } else {
+            isTimerRunning = true;
+            btnTimerToggle.textContent = 'Pause';
+            timerInterval = setInterval(() => {
+              if (remainingSeconds > 0) {
+                remainingSeconds--;
+                updateTimerDisplay();
+              } else {
+                clearInterval(timerInterval);
+                isTimerRunning = false;
+                btnTimerToggle.textContent = 'Start Rest';
+                remainingSeconds = 60;
+                alert('⏰ Rest Interval Over! Get ready for your next set!');
+                updateTimerDisplay();
+              }
+            }, 1000);
+          }
+        });
+      }
+
+      if (btnTimerReset) {
+        btnTimerReset.addEventListener('click', () => {
+          clearInterval(timerInterval);
+          isTimerRunning = false;
+          remainingSeconds = 60;
+          if (btnTimerToggle) btnTimerToggle.textContent = 'Start Rest';
+          updateTimerDisplay();
+        });
+      }
+
+    })();
+  </script>
+
+  <!-- ============================================================================
+       HilltopAds Master Configuration Script (Zone 1 - Zone 6)
+       ============================================================================ -->
+  <script src="ads-config.js"></script>
+</body>
+</html>
